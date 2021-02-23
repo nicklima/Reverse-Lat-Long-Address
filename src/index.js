@@ -42,8 +42,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
               target.innerHTML = '';
         const newEl = document.createElement('span');
 
-        const apikey = '72842e1102ea41dc8796c5cb210d908f';
-        // const apikey = '51a2616cca104a3bb63647a291fdeb8c';
+        const apikey = '3e48b1dea774438997c0035eb0122606';
         const api_url = 'https://api.opencagedata.com/geocode/v1/json'
         const request_url = api_url
         + '?'
